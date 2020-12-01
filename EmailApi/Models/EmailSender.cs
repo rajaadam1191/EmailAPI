@@ -9,6 +9,8 @@ namespace EmailApi.Models
     {
         public string toAddress { get; set; }
         public string toName { get; set; }
+
+        public string toCCId { get; set; }
         public string toId { get; set; }
         public string subject { get; set; }
         public string ideaID { get; set; }

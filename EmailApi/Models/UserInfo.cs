@@ -11,5 +11,6 @@ namespace EmailApi.Models
         public string UserId { get; set; }
         public string email { get; set; }
         public string password { get; set; }
+        public string process { get; set; }
     }
 }
